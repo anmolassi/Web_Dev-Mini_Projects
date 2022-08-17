@@ -1,0 +1,131 @@
+#round-box {
+  background-color: aqua;
+  width: 250px;
+  height: 250px;
+  border-radius: 500px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#change-color {
+  background-color: rgb(145, 145, 145);
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#change-shape {
+  background-color: rgb(145, 145, 145);
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* shapes */
+
+#circle {
+  background-color: #32557f;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#ellipse {
+    background-color: #32557f;
+  width: 200px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+#half-ellipse1 {
+    background-color: #32557f;
+  width: 150px;
+  height: 75px;
+  border-radius: 50% / 100% 100% 0 0;
+}
+#half-ellipse2 {
+    background-color: #32557f;
+  width: 150px;
+  height: 75px;
+  border-radius: 50% / 0 0 100% 100%;
+}
+#half-ellipse3 {
+  background-color: #32557f;
+  width: 150px;
+  height: 75px;
+  border-radius: 100% 0 0 100% / 50%;
+}
+#half-ellipse4 {
+  background-color: #32557f;
+  width: 150px;
+  height: 75px;
+  border-radius: 0 100% 100% 0 / 50%;
+}
+
+#quarter-ellipse1 {
+  background-color: #32557f;
+  width: 150px;
+  height: 75px;
+  border-radius: 100% 0 0 0;
+}
+#quarter-ellipse2 {
+  background-color: #32557f;
+  width: 150px;
+  height: 75px;
+  border-radius: 0 100% 0 0;
+}
+#quarter-ellipse3 {
+  background-color: #32557f;
+  width: 150px;
+  height: 75px;
+  border-radius: 0 0 100% 0;
+}
+#quarter-ellipse4 {
+  background-color: #32557f;
+  width: 150px;
+  height: 75px;
+  border-radius: 0 0 0 100%;
+}
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #32557f;
+  background-color: #32557f;
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid #32557f;
+  background-color: #32557f;
+
+}
+
+.triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 100px solid #32557f;
+  border-bottom: 50px solid transparent;
+  
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 100px solid #32557f;
+  border-bottom: 50px solid transparent;
+  background-color: #32557f;
+}
